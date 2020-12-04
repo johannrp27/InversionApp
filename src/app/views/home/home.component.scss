@@ -1,0 +1,60 @@
+@import "../../../assets/styles/variables.scss";
+
+.section{
+    padding-top: 30px;
+}
+
+.cardSimple{
+    padding: 20px 21px;
+    margin-bottom: 40px;
+}
+
+.bg-color{
+    color: white;
+    height: 230px;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: linear-gradient(180deg, $card-gradient-start 0%, $card-gradient-mid 100%), $card-gradient-end;
+    background-blend-mode: multiply, normal;
+    font-weight: 600;
+}
+
+.card{
+    &__content{
+        position: relative;
+    }
+    
+    &__img{
+        position: absolute;
+        top: -30px;
+        right: 10px;
+    }
+    
+    &__mainText{
+        position: initial;
+        padding: 30px 200px 60px 25px;
+    }
+    
+    &__sub.pad{
+        padding-left: 20px;
+    }
+    &__balance{
+        padding-left: 20px;
+    }
+    &__first{
+        padding-bottom: 20px;
+    }
+    &__black{
+        font-weight: 600;
+    }
+}
+
+
+.resume{
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.resume .col-6{
+    padding: 20px;
+}

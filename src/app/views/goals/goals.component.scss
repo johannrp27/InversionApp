@@ -1,0 +1,42 @@
+@import '../../../assets/styles/variables.scss';
+
+.grid{
+    gap: 11px;
+}
+.grid-2{
+    padding-bottom: 40px;
+}
+.grid-graph{
+    grid-template-columns: 45% 55%;
+}
+
+.card{
+    height: 202px;
+    padding: 20px;
+    
+    &__sub{
+        color :#817699;
+        font-weight: 600;
+        height: 42px;
+        
+    }
+    &__progress{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.03em;
+    }
+    &__goal{
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        color: #817699;        
+    }
+}
+// p.gradient-text {
+//     font-weight: 600;
+//     background: -webkit-linear-gradient(270deg, $card-gradient-start 0%, $card-gradient-mid 100%), $card-gradient-end;
+//     background-blend-mode: multiply;
+//     background-clip: text;
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+// }

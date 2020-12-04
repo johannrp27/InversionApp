@@ -1,0 +1,34 @@
+<div class="section grid grid-title">
+    <div class="section__mainText">Los P*t@s del ahorro</div>
+</div>
+
+<div class="slide">
+    <div class="slide__images">
+        <img class="slide__img" src="../../../assets/img/tipThumb.png" alt="Preview Video">
+        <img class="play" src="../../../assets/icons/playVideo.svg" alt="Button Play">
+    </div>
+    <div class="slide__data">
+        <img class="slide__svg" src="../../../assets/icons/wave.svg" alt="Wave">
+        <div class="slide__text">
+            <div class="slide__title">Esto es {{'ahorro' | uppercase}}</div> 
+            <div class="slide__description">Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti</div>
+        </div>
+    </div>
+</div>
+
+<div class="card card_tips">
+    <div class="tip" *ngFor="let i of [1,2,3]">
+        <div class="grid grid-tips">
+            <div>
+                <div class="tip__title">10 gastos que debes evitar</div>
+                <div class="tip__description">
+                    Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.
+                </div>
+            </div>
+            <div class="tip__container">
+                <img class="tip__image"src="../../../assets/img/tip{{i}}.png" alt="">
+            </div>
+        </div>
+        <hr *ngIf="i!=3">
+    </div>
+</div>

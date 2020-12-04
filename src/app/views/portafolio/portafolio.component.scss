@@ -1,0 +1,15 @@
+@import '../../../assets/styles/variables.scss';
+
+.section__badge{
+    background-color: $badge-green-light;
+    font-size: 10px;
+    font-weight: 600;
+    border: 0.5px solid #41CF69;
+    border-radius: 20px;
+    text-align: center;
+    color: #41CF69;
+}
+
+
+
+// $badge-green-dark

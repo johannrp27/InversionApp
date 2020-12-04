@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Ahorros"
+    }
+  },
+  "defaultProject": "Ahorros",
+  "cli": {
+    "analytics": "c1d6c52f-d06f-4431-93b2-4e41fbb5003c"
+  }
 }

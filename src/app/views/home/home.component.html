@@ -1,0 +1,36 @@
+<!--Title-->
+<div class="section grid grid-title">
+    <div class="section__mainText">Hola, Daniela</div>
+    <div class="section__icon">
+        <img src="../../../assets/icons/notification.svg" alt="Notification">
+    </div>
+</div>
+
+<!--Card-->
+<div class="card bg-color">
+    <div class="card__content">
+        <img class="card__img" src="../../../assets/img/card.png" alt="Status Card">
+        <div class="card__mainText">Eres {{type}}</div>
+        <div class="card__sub pad">Tu saldo </div>
+        <div class="card__balance pad">{{(balance | currency:'USD':'symbol':'1.0-0')}}</div>
+    </div>
+</div>
+
+<!--Resume-->
+<div class="card cardSimple">
+    <div class="grid grid-2">
+        <div class="card__sub card__first">Inversión</div>
+        <div class="card__first text-right card__black">{{investment | currency:'USD':'symbol':'1.0-0'}}</div>
+        <div class="card__sub">Rendimiento</div>
+        <div class="text-right card__black">{{profit | currency:'USD':'symbol':'1.0-0'}}</div>
+    </div>
+</div>
+
+
+<app-goals></app-goals>
+
+<app-portafolio [type]="type" ></app-portafolio>
+
+<!-- <app-tips></app-tips> -->
+
+<!-- <app-menu></app-menu> -->
