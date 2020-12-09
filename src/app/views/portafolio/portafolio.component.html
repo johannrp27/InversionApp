@@ -1,10 +1,35 @@
 <div class="section grid grid-title">
     <div class="section__mainText">Conoce tu portafolio</div>
-    <div class="section__badge">
+    <div class="section__badge light">
         {{type | titlecase}}
     </div>
 </div>
 
 <div class="card">
-    
+    <div class="grid grid-portfolio">
+        <div class="">Grafica del robot</div>
+        <div class="company">
+            <div class="company__name">
+                <img src={{company.icon}} alt="Skandia">
+                <div class="section__badge dark">
+                    {{company.percent}}%
+                </div>
+            </div>
+            <div class="company__investment">{{company.name}}</div>
+            <div class="company__balance">{{company.balance | currency:'USD':'symbol':'1.0-0'}}</div>
+            <div class="company__types">Tipo de activo</div>
+            <div class="types" *ngFor="let type of company.model">
+                <div>{{type}}</div>
+            </div>
+            <div class="images">
+                <button>
+                    <img src="../../../assets/icons/chevron_left.svg" alt="Atras">
+                </button>
+                <button>
+                    <img src="../../../assets/icons/chevron_right.svg" alt="Adelante">  
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="types">Tu dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.</div>
 </div>
