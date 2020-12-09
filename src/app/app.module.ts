@@ -8,6 +8,7 @@ import { GoalsComponent } from './views/goals/goals.component';
 import { TipsComponent } from './views/tips/tips.component';
 import { HomeComponent } from './views/home/home.component';
 import { PortafolioComponent } from './views/portafolio/portafolio.component';
+import { OtherComponent } from './views/other/other.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PortafolioComponent } from './views/portafolio/portafolio.component';
     GoalsComponent,
     TipsComponent,
     HomeComponent,
-    PortafolioComponent
+    PortafolioComponent,
+    OtherComponent
   ],
   imports: [
     BrowserModule,
