@@ -7,7 +7,18 @@
 
 <div class="card">
     <div class="grid grid-portfolio">
-        <div class="">Grafica del robot</div>
+        <div class="company__graph">
+            <div class="company__advance">
+                <div style="height: 40px;"><img src="../../../assets/icons/robot.svg" alt="Robot"></div>
+                <div class="mainTxt">RoboAdvisor</div>
+                <div class="subTxt">10 fondos</div>
+            </div>
+            <circle-progress [percent]=15 [radius]="50" 
+            [outerStrokeWidth]="12" [innerStrokeWidth]="10" [space] = "-10.5"            
+            [innerStrokeColor]="'#58506B4B'" [outerStrokeColor]="'#41CF69'" [outerStrokeLinecap]="'butt'"
+            [showTitle]="false" [showSubtitle]="false" [showUnits]="false"
+            ></circle-progress>
+        </div>
         <div class="company">
             <div class="company__name">
                 <img src={{company.icon}} alt="Skandia">

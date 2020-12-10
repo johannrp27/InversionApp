@@ -17,7 +17,12 @@
         color :#817699;
         font-weight: 600;
         height: 42px;
+        display: flex;
         
+    }
+    &__sub .item{
+        margin-top: auto;
+        margin-bottom: auto;
     }
     &__info{
         display: flex;
@@ -40,6 +45,9 @@
         letter-spacing: -0.03em;
         color: #817699;        
     }
+    &__advance{
+        padding-left: 5px;
+    }
 }
 hr{
     border: 1px solid #FAF9FD;
@@ -47,12 +55,10 @@ hr{
     margin-bottom: 15px;
 }
 
-// p.gradient-text {
-    //     font-weight: 600;
-    //     background: -webkit-linear-gradient(270deg, $card-gradient-start 0%, $card-gradient-mid 100%), $card-gradient-end;
-    //     background-blend-mode: multiply;
-    //     background-clip: text;
-    //     -webkit-background-clip: text;
-    //     -webkit-text-fill-color: transparent;
-    // }
-    
+.card__current {
+    background: -webkit-linear-gradient(270deg, $card-gradient-start 0%, $card-gradient-mid 100%), $card-gradient-end;
+    background-blend-mode: multiply;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

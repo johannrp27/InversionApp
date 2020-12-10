@@ -17,13 +17,13 @@ export class GoalsComponent implements OnInit {
   getGoals(){
     this.goals = [
       {
-        img: '../../../assets/img/goal1.png',
+        img: '../../../assets/icons/goal1.svg',
         name: 'Viaje a Islas Canarias',
         progress: 1630000,
         goal: 8000000
       },
       {
-        img: '../../../assets/img/goal2.png',
+        img: '../../../assets/icons/goal2.svg',
         name: 'Macbook Pro',
         progress: 0,
         goal: 7000000

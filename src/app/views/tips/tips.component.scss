@@ -28,7 +28,6 @@
     &__svg{
         width: 100%;
         border-radius: 0px 0px 20px 20px;
-        // position: relative;
     }
     &__text{
         position: absolute;
@@ -44,7 +43,6 @@
     &__description{
         font-size: 12px;
         line-height: 16px;
-        letter-spacing: -0.03em;
     }
 }
 
@@ -53,9 +51,11 @@
     &__title{
         font-size: 14px;
         margin-bottom: 5px;
+        color: #817699;
     }
     &__description{
         font-size: 10px;
+        color: #58506B;
     }
     &__img{
         width: 100%;
