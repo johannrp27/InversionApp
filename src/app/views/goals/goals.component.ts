@@ -19,15 +19,17 @@ export class GoalsComponent implements OnInit {
       {
         img: '../../../assets/img/goal1.png',
         name: 'Viaje a Islas Canarias',
-        progress: '1630000',
-        goal: '8000000'
+        progress: 1630000,
+        goal: 8000000
       },
       {
         img: '../../../assets/img/goal2.png',
         name: 'Macbook Pro',
-        progress: '0',
-        goal: '7000000'
+        progress: 0,
+        goal: 7000000
       },
     ];
+    this.goals.forEach(goal => goal.percent = (goal.progress * 100 / goal.goal).toFixed(0));
+    console.log(this.goals);
   }
 }

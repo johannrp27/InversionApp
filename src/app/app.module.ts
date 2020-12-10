@@ -9,6 +9,7 @@ import { TipsComponent } from './views/tips/tips.component';
 import { HomeComponent } from './views/home/home.component';
 import { PortafolioComponent } from './views/portafolio/portafolio.component';
 import { OtherComponent } from './views/other/other.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { OtherComponent } from './views/other/other.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
