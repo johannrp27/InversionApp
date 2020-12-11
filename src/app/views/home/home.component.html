@@ -2,7 +2,7 @@
 <div class="section grid grid-title">
     <div class="section__mainText">Hola, Daniela</div>
     <div class="section__icon">
-        <a><img src="../../../assets/icons/notification.svg" alt="Notification"></a>
+        <a routerLink="/other"><img src="../../../assets/icons/notification.svg" alt="Notification"></a>
     </div>
 </div>
 
@@ -11,8 +11,10 @@
     <div class="card__content">
         <img class="card__img" src="../../../assets/icons/girlP.svg" alt="Status Card">
         <div class="card__mainText">Eres {{type}}</div>
-        <div class="card__sub pad">Tu saldo </div>
-        <div class="card__balance pad">{{(balance | currency:'USD':'symbol':'1.0-0')}}</div>
+        <div class="card__info">
+            <div class="card__sub">Tu saldo </div>
+            <div class="card__balance">{{(balance | currency:'USD':'symbol':'1.0-0')}}</div>
+        </div>
     </div>
 </div>
 
