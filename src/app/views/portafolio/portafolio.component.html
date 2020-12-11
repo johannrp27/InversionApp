@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="company__investment">{{company.name}}</div>
-            <div class="company__balance">{{company.balance | currency:'USD':'symbol':'1.0-0'}}</div>
+            <div class="company__balance">{{company.balance | currency:'COP':'symbol':'1.0-0'}}</div>
             <div class="company__types">Tipo de activo</div>
             <div class="types" *ngFor="let type of company.model">
                 <div>{{type}}</div>

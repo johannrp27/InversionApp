@@ -34,14 +34,13 @@
     
     &__mainText{
         position: initial;
-        padding: 30px 200px 60px 25px;
+        padding: 30px 25px;
     }
     
-    &__sub.pad{
+    &__info{
         padding-left: 20px;
-    }
-    &__balance{
-        padding-left: 20px;
+        position: absolute;
+        top: 140px;
     }
     &__first{
         padding-bottom: 20px;
